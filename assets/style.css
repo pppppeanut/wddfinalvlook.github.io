@@ -1,0 +1,496 @@
+.nav-container {
+    text-align: left;
+    width: 100%;
+    /* margin-left: 20px; */
+    background-color: rgb(255, 255, 245);
+    /* border-bottom: solid; */
+    /* border-top: solid; */
+    border-width: 1px;
+    border-color: rgb(123, 118, 93);
+    position: relative;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(123, 118, 93);
+    margin: 10px 15px;
+    margin-left: 30px;
+    color: rgb(123, 118, 93);
+    font-weight: 500;
+    /* font-family: 'Oxygen', sans-serif; */
+}
+
+.button {
+    font-family: 'Raleway', sans-serif;
+    /* display: inline; */
+    cursor: pointer;
+}
+
+#name {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 100px;
+    /* width: 100px; */
+    margin: 10px;
+    font-weight: 100;
+    position: absolute;
+    z-index: 10;
+    /* top: 400px; */
+    margin-left: 40px;
+    float: left;
+    /* color: rgb(0, 0, 0); */
+    color: rgb(58, 54, 36);
+}
+
+#about-container {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    /* line-height: 1.5; */
+}
+
+.title {
+    font-size: 80px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 100;
+}
+
+#phoropter {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#slide {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    /* height: 500px; */
+}
+
+#overlay {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 1;
+}
+
+#slide {
+    padding: 30px;
+    width: 40%;
+    height: 1500px;
+    margin-top: 0px;
+    /* margin-top: -500px; */
+}
+
+.subheading {
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+div#slide-about {
+    height: 500px;
+}
+
+#dot-container {
+    width: 30px;
+    right: 135px;
+    top: 30px;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.dot {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(176, 168, 131);
+    margin: 10px;
+
+    margin-bottom: 12px;
+}
+
+#services-container {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 245);
+    overflow: hidden;
+    top: 220px;
+}
+
+
+#services-you {
+    display: inline-block;
+}
+
+#services-how {
+    display: inline-block;
+    color: rgb(123, 118, 93);
+}
+
+#services-text {
+    text-align: center;
+    top: 220px;
+    position: relative;
+    font-size: 48px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.visioncare-unselected {
+    width: calc(100% - 50px);
+    height: 100%;
+    background-color: black;
+    z-index: 10;
+    position: relative;
+    margin-top: -100px;
+    right: calc(100% - 100px);
+}
+
+.shopstyles-unselected {
+    width: calc(100% - 50px);
+    height: 500px;
+    background-color: rgb(123, 118, 93);
+    z-index: 10;
+    position: relative;
+    margin-top: -500px;
+    margin-left: 50px;
+    left: calc(100% - 100px);
+}
+
+.visioncare-selected {
+    width: calc(100% - 50px);
+    height: 100%;
+    background-color: black;
+    z-index: 10;
+    position: relative;
+    margin-top: -100px;
+}
+
+.shopstyles-selected {
+    width: calc(100% - 50px);
+    height: 500px;
+    background-color: rgb(123, 118, 93);
+    z-index: 10;
+    position: relative;
+    margin-top: -500px;
+    margin-left: 50px;
+
+}
+#contact-section {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 245);
+    overflow: hidden;
+}
+
+#map-container {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    /* z-index: 100; */
+}
+
+#directions-button {
+    width: 250px;
+    font-size: 24px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    position: absolute;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    margin-left: calc(50% - 125px);
+    padding: 5px;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    background-color: rgb(123, 118, 93);
+    /* opacity: 0.9; */
+    font-weight: 300;
+    cursor: pointer;
+}
+
+#locations {
+    width: 70%;
+    height: 250px;
+    margin: 20px;
+    margin-right: 30px;
+    position: relative;
+    float: left;
+}
+
+#hours {
+    width: 50%;
+    height: 250px;
+    display: inline;
+    position: relative;
+    padding: 20px;
+    right: 20px;
+}
+
+.info-title {
+    font-size: 60px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: rgb(123, 118, 93);
+    font-weight: 300;
+}
+
+#info {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(255, 255, 245);
+    position: relative;
+    /* margin-top: 250px; */
+    width: 100%;
+}
+#man {
+    height: 500px;
+    position: relative;
+    left: 500px;
+}
+
+#rayban {
+    width: 100%;
+    opacity: 0.7;
+}
+
+#section-img {
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+}
+
+.description {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    margin-top: 20px;
+    line-height: 2em;
+}
+
+.info-text {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
+    /* background: white; */
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.3em;
+    -webkit-margin-before: -0.8em;
+    color: rgb(123, 118, 93);
+}
+
+#address {
+    font-size: 18px;
+    color: rgb(123, 118, 93);
+}
+
+#number {
+    font-size: 18px;
+    color: rgb(123, 118, 93);
+    /* padding: 5px; */
+}
+
+p {
+    line-height: 1.5em;
+}
+
+#slide-doctor {
+    height: 500px;
+}
+
+.dot-selected {
+    background-color:white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    margin-bottom: 12px;
+}
+
+.services-tab {
+    width: 200px;
+    /* height: 500px; */
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    /* transform: rotate(-90deg); */
+    /* margin-left: -90px; */
+   }
+
+#shopstyles-tab {
+    /* margin-left: -85px; */
+    /* font-family: 'Alegreya Sans SC', sans-serif; */
+    /* font-size: 30px; */
+    /* left: 0px; */
+    position: absolute;
+    transform: rotate(-90deg);
+    margin-left: -80px;
+    top: 200px;
+    cursor: pointer;
+    color: white;
+    font-weight: 300;
+}
+
+#visioncare-tab {
+    color: white;
+    transform: rotate(-90deg);
+    /* margin-right: 50px; */
+    position: absolute;
+    top: 198px;
+    margin-left: calc(100% - 120px);
+    z-index: 10;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.navfixed {
+    position: fixed;
+    top: 0px;
+}
+
+.navcolor {
+    background-color: rgb(239, 239, 228);
+}
+
+
+#office {
+    position: absolute;
+    /* margin-left: 5px; */
+    width: 100%;
+    opacity: 0.8;
+}
+
+#caption {
+    display: inline-block;
+    color: white;
+    width: 100px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    z-index: 100;
+    right: 30px;
+    position: absolute;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+#glasses {
+    /* height: 80px; */
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    top: -25px;
+    left: 20px;
+    cursor: pointer;
+}
+
+#about {
+    margin-left: 160px;
+}
+
+#directions {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#schedule {
+    background: black;
+    color: white;
+}
+
+#visioncare-options {
+    color: white;
+    width: 37%;
+    /* margin: 0 auto; */
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    /* top: -50px; */
+    /* margin-top: -50px; */
+    position: absolute;
+    margin-left: 40px;
+    /* margin-right: 40px; */
+}
+
+.visioncare-title {
+    margin-top: 20px;
+    position: relative;
+    top: 30px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.visioncare-description {
+    margin-top: 15px;
+    position: relative;
+    top: 30px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+#exam {
+    height: 500px;
+}
+
+#visioncare-image {
+    display: inline-block;
+    width: calc(55% - 50px);
+    /* right: 20px; */
+    overflow: hidden;
+    margin-left: 45%;
+    /* position: absolute; */
+}
+
+#shopstyles {
+    height: 500px;
+    margin-left: -80px;
+}
+
+#shopstyles-image {
+    overflow: hidden;
+    display: inline-block;
+    width: calc(55% - 50px);
+    margin-left: 50px;
+}
+
+#shopstyles-options {
+    display: inline-block;
+    position: absolute;
+    width: 37%%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    top: 30px;
+    margin-left: 40px;
+}
+
+.shopstyles-title {
+    font-size: 30;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.shopstyles-description {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.shopstyles-list {
+    /* text-align: left; */
+    line-height: 2em;
+    margin-top: -10;
+}
